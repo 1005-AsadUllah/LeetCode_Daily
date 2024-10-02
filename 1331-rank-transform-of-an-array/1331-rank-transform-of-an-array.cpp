@@ -6,7 +6,7 @@ public:
                     return {};
             set<int> s(a.begin(),a.end());
             
-            unordered_map<int,int> mp;
+            map<int,int> mp;
             int r =1;
             for(auto val : s)
             {
